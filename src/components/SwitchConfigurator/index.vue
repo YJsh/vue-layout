@@ -20,7 +20,7 @@
     -moz-osx-font-smoothing: grayscale;
     color: #2c3e50;
     box-sizing: border-box;
-    padding: 15px 20px 0;
+    /*padding: 0 20px;*/
     height: 100%;
     display: flex;
     flex-direction: column;

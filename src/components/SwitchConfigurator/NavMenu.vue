@@ -7,7 +7,7 @@
     </el-menu-item>
 
     <el-menu-item>
-      <el-input size="medium" style="width: 300px">
+      <el-input size="small" style="width: 350px" placeholder="搜索">
         <i slot="suffix" class="el-input__icon el-icon-search"></i>
       </el-input>
     </el-menu-item>
@@ -27,7 +27,7 @@
     <el-submenu index="project" style="float: right">
       <template slot="title">
         <span v-if="curProject">{{ curProject }}</span>
-        <span v-else>选择项目</span>
+        <span v-else>项目选择</span>
       </template>
       <el-menu-item v-for="project in projects" :key="project" :index="project">{{ project }}</el-menu-item>
     </el-submenu>

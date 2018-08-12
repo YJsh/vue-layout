@@ -1,5 +1,5 @@
 <template>
-  <div style="display: flex; flex-direction: column; flex-shrink: 0;">
+  <div style="display: flex; flex-direction: column; flex-shrink: 0; color: black;">
     <h3>【私服】</h3>
     <el-checkbox-group v-model="selected">
       <div v-for="(num, index) in internal" :key="index">
@@ -48,14 +48,15 @@
 
 <style scoped>
   .el-checkbox-group {
-    /*padding-top: 4px;*/
     display: flex;
+    margin-bottom: 12px;
   }
   .el-checkbox {
     margin: 2px 10px;
     width: 120px;
+    color: black;
   }
   h3 {
-    margin: 12px 0;
+    margin: 0 0 12px;
   }
 </style>
